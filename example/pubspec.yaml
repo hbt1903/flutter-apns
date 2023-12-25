@@ -13,8 +13,11 @@ dependencies:
   cupertino_icons: ^1.0.5
   path_provider: ^2.0.11
 
-  flutter_local_notifications: ^9.7.0
-  flutter_apns:
+  flutter_local_notifications: 
+  flutter_apns: 
+    git:
+      url: https://github.com/hbt1903/flutter_apns.git
+      ref: main
 
 dev_dependencies:
   flutter_test:
@@ -26,5 +29,3 @@ flutter:
 dependency_overrides:
   # flutter_apns_only:
   # path: ../flutter_apns_only
-  flutter_apns:
-    path: ../flutter_apns
